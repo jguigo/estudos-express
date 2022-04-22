@@ -25,6 +25,9 @@ const CategoriaProduto = db.define("CategoriaProduto",{
    updatedAt:{
       type: DataTypes.DATE
    }
+},
+{
+   tableName: "categoria_produto"
 })
 
 module.exports = CategoriaProduto;

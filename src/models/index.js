@@ -28,5 +28,6 @@ Categorias.belongsToMany(Produtos, {
 
 module.exports = {
    Fabricantes,
-   Produtos
+   Produtos,
+   Categorias
 }
