@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
 
 const DB_NAME = 'loja'; //node do database
 const DB_USER = 'root'; //nome do usuário 
-const DB_PASS = 'nndcJ@21'; //senha
+const DB_PASS = ''; //senha
 const DB_CONFIG = {
     dialect: 'mysql', //qual o banco de dados que esta sendo utilizado
     host: 'localhost',
