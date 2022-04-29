@@ -8,7 +8,8 @@ const Categorias = db.define('Categorias',{
       autoIncrement: true
    },
    nome: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      length: 100 // é importante definir um length até para validadação
    },
    createdAt: {
       type: DataTypes.DATE

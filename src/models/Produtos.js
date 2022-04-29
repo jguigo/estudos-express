@@ -20,6 +20,9 @@ const Produtos = db.define(
       },
       nome: {
          type: DataTypes.STRING,
+         length: 1000, //importante definir para falidação
+         field: "nome" //aqui eu especifico o nome do da coluna que esta na tabela! CASO minha key tenha o mesmo nome que esta na
+                       //tabela eu não preciso passar, mas talvez PODE SER BOM OU SER RUIM?!?! NÃO SEI DIZER.
       },
       preco: {
          type: DataTypes.FLOAT,
